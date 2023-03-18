@@ -11,13 +11,14 @@ O tempo disponível para transferência é de 6 horas no máximo.
 • O método de transferência deve ser assíncrono, com dois bits de sincronismo (a cada 8 bits transmitidos, 6 bits são de dados e 2 são de parada, 75% de aproveitamento).
 • O protocolo de comunicação estabelece o aproveitamento de no mínimo 70% da taxa de transferência efetiva disponível. Os 30% restantes serão gastos com o protocolo e eventuais correções de erro na transmissão.
 E, por fim, pediu a gentileza de colocar na mesa dele antes do almoço qual a taxa de transferência efetiva mínima que deve estar disponível, porque ele ia passar para a equipe de campo e para o cliente para deixá-lo tranquilo.
-<p>
+</p>
 
 $$ TX = {22 x 1024x 1024 x 8 bits \over 6 x 60 x60 x 0,7 x 0,75 s} = 16.275 bps $$
 
 
 <br />
 
+<hr />
 
 ##### 1) Atividade II
 <p>
@@ -43,4 +44,18 @@ Regra de 3
  $$ {60 min\over 21,4760 min} = {15km\over x} => x = 5,37 km  $$ 
  
 
+<hr />
+## Orientações técnicas
 
+* Taxa de transferência
+
+Para calcular a sua taxa de transferência você deve converter a sua conexão para KB e dividir o resultado por 8(1 Byte é composto de 8 Bits) pois a taxa de transferencia é representada em bits.
+
+* Tempo de Download
+
+Para calcular o tempo de download você deve converter o tamanho do arquivo para KB e depois dividir pela taxa de transferência.
+
+
+* Velocidade de Internet
+s
+Primeiro precisamos converter as unidades de MB para KB e de minutos para segundos depois converte  KB/segundos e por ultimo transformando em MB 
