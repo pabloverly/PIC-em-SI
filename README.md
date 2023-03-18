@@ -57,5 +57,5 @@ Para calcular o tempo de download você deve converter o tamanho do arquivo para
 
 
 * Velocidade de Internet
-s
+
 Primeiro precisamos converter as unidades de MB para KB e de minutos para segundos depois converte  KB/segundos e por ultimo transformando em MB 
